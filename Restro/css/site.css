@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:wght@300&display=swap');
+
+html{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+   
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Kreon', serif;
+    font-weight:  700;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0;
+    text-indent: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+p{
+    font-weight: bold;
+}
+
+header{
+    
+    text-align: right;
+    
+}
+
+
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: .3rem;
+}
+
+header,footer{
+    font-size: .67rem;
+    background-color: black;
+    padding: .4rem;
+    max-width: 100%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+
+
+.main-image{
+    text-align:  center;
+    color: white;
+    position: relative;
+    
+}
+
+.main-image img{
+    max-width: 100%;
+}
+
+.main-image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-image-text p {
+    margin: 0;
+}
+
+.info{
+    text-align: center;
+}
+
+.highlight{
+    display: flow-root;
+}
+
+.highlight .left{
+    width: 50%;
+    float: left;
+}
+
+.highlight .right{
+    width: 50%;
+    float: right;
+}
+
+.highlight-text{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.highlight-text h2, .highlight-text p
+{
+    padding-left: .67rem  ;
+    padding-right: .67rem;
+}
+
+
+.menu-items{
+    text-align: center;
+}
+
+.menu-items ul{
+    list-style-type: none;
+}
+
+.menu-items ul li{
+    text-indent: -1rem;
+    margin-bottom: 1rem;
+}
+
